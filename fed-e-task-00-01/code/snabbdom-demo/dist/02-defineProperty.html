@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        hello
+    </div>
+    <script>var data = {
+  msg: 'hello'
+};
+var vm = {};
+Object.defineProperty(vm, 'msg', {
+  enumerable: true,
+  configurable: true,
+  get: function get() {
+    console.log('get: ', data.msg);
+  },
+  set: function set(newValue) {
+    console.log('set: ', newValue);
+    if (newValue === data.msg) return;
+    data.msg = newValue;
+    document.querySelector('#app').textContent = data.msg;
+  }
+});
+vm.msg = 'Hello World';
+console.log(vm.msg);</script>
+</body>
+</html>
