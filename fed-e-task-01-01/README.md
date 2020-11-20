@@ -1,4 +1,6 @@
-# Part 1 ·模块一 函数式编程与JS异步编程、手写Promise
+# Part 1 · JavaScript 深度剖析
+
+## 模块一 · 函数式编程与JS异步编程、手写Promise
 
 ## 简答题
 
