@@ -62,6 +62,35 @@
   - 尽可能的使用上所有你了解到的功能和特性
 
 
+> 项目说明
+
+- 安装 Webpack
+  - webpack
+  - webpack-cli
+
+- 安装 babel
+  - @babel/core
+  - @babel/preset-env
+  - babel-loader
+
+- 安装 Loader
+  - url-loader
+  - file-loader
+  - less-loader
+  - css-loader
+  - style-loader
+  - vue-loader
+
+- 安装 Webpack 插件
+  - clean-webpack-plugin
+  - html-webpack-plugin
+  - copy-webpack-plugin
+
+- 不同环境下的配置
+  - webpack.common.js
+  - webpack.dev.js
+  - webpack.prod.js
+  
 
 
 
