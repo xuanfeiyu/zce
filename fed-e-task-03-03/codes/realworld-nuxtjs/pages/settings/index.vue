@@ -9,38 +9,33 @@
             <fieldset>
               <fieldset class="form-group">
                 <input
-                  class="form-control"
-                  type="text"
-                  placeholder="URL of profile picture"
-                />
+                       class="form-control"
+                       type="text"
+                       placeholder="URL of profile picture" />
               </fieldset>
               <fieldset class="form-group">
                 <input
-                  class="form-control form-control-lg"
-                  type="text"
-                  placeholder="Your Name"
-                />
+                       class="form-control form-control-lg"
+                       type="text"
+                       placeholder="Your Name" />
               </fieldset>
               <fieldset class="form-group">
                 <textarea
-                  class="form-control form-control-lg"
-                  rows="8"
-                  placeholder="Short bio about you"
-                ></textarea>
+                          class="form-control form-control-lg"
+                          rows="8"
+                          placeholder="Short bio about you"></textarea>
               </fieldset>
               <fieldset class="form-group">
                 <input
-                  class="form-control form-control-lg"
-                  type="text"
-                  placeholder="Email"
-                />
+                       class="form-control form-control-lg"
+                       type="text"
+                       placeholder="Email" />
               </fieldset>
               <fieldset class="form-group">
                 <input
-                  class="form-control form-control-lg"
-                  type="password"
-                  placeholder="Password"
-                />
+                       class="form-control form-control-lg"
+                       type="password"
+                       placeholder="Password" />
               </fieldset>
               <button class="btn btn-lg btn-primary pull-xs-right">
                 Update Settings
@@ -55,6 +50,7 @@
 
 <script>
 export default {
+  middleware: 'authenticated',
   name: "SettingsIndex",
 };
 </script>

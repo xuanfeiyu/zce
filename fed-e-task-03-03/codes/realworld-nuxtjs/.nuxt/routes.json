@@ -1,43 +1,51 @@
 [
   {
     "path": "/",
-    "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\layout",
     "children": [
       {
         "path": "/",
         "name": "home",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\home"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\home",
+        "_name": "_25254a6a"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_7fbc4b3e"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_7fbc4b3e"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\profile"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\profile",
+        "_name": "_5afd443e"
       },
       {
         "path": "/settings/",
         "name": "settings",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\settings"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\settings",
+        "_name": "_d42957a4"
       },
       {
         "path": "/editor/",
         "name": "editor",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\editor"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\editor",
+        "_name": "_6b414038"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "E:\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\article"
+        "component": "E:\\\\temp\\\\zce\\\\fed-e-task-03-03\\\\codes\\\\realworld-nuxtjs\\\\pages\\\\article",
+        "_name": "_41c7878b"
       }
-    ]
+    ],
+    "_name": "_771019f5"
   }
 ]
