@@ -4,7 +4,13 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _c710e882 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _1c35f0ee = () => interopDefault(import('..\\pages\\layout' /* webpackChunkName: "" */))
+const _59c08cfe = () => interopDefault(import('..\\pages\\home' /* webpackChunkName: "" */))
+const _42ed49ac = () => interopDefault(import('..\\pages\\login' /* webpackChunkName: "" */))
+const _3ac6092a = () => interopDefault(import('..\\pages\\profile' /* webpackChunkName: "" */))
+const _a189a67c = () => interopDefault(import('..\\pages\\settings' /* webpackChunkName: "" */))
+const _33d3a468 = () => interopDefault(import('..\\pages\\editor' /* webpackChunkName: "" */))
+const _21904c77 = () => interopDefault(import('..\\pages\\article' /* webpackChunkName: "" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -18,14 +24,42 @@ Vue.use(Router)
 export const routerOptions = {
   mode: 'history',
   base: '/',
-  linkActiveClass: 'nuxt-link-active',
+  linkActiveClass: 'active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
   routes: [{
     path: "/",
-    component: _c710e882,
-    name: "index"
+    component: _1c35f0ee,
+    children: [{
+      path: "/",
+      component: _59c08cfe,
+      name: "home"
+    }, {
+      path: "/login",
+      component: _42ed49ac,
+      name: "login"
+    }, {
+      path: "/register",
+      component: _42ed49ac,
+      name: "register"
+    }, {
+      path: "/profile/:username",
+      component: _3ac6092a,
+      name: "profile"
+    }, {
+      path: "/settings/",
+      component: _a189a67c,
+      name: "settings"
+    }, {
+      path: "/editor/",
+      component: _33d3a468,
+      name: "editor"
+    }, {
+      path: "/article/:slug",
+      component: _21904c77,
+      name: "article"
+    }]
   }],
 
   fallback: false

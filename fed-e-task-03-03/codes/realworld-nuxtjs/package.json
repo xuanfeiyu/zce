@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.12.2"
   }
 }
