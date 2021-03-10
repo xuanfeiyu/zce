@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
 
     # 下载源码
@@ -58,3 +58,5 @@ jobs:
           tar zxvf release.tgz
           npm install --production
           pm2 reload pm2.config.json
+
+          
